@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>PanstwaMiasta Helper</title>
+    <style>
+        body {
+            background-color: white;
+            background-image: linear-gradient(to right, transparent 0%, transparent calc(100% - 1px), #ccc calc(100% - 1px)),
+                               linear-gradient(to bottom, rgb(202, 225, 231) 1px, transparent 1px);
+            background-size: 25px 25px;
+            font-family: Arial, sans-serif;
+            color: black;
+            padding: 20px;
+            width: 300px;
+        }
+        
+        h1, h2 {
+            color: black;
+        }
+        
+        input[type="radio"] {
+            margin-right: 10px;
+        }
+        
+        label {
+            margin-right: 20px;
+        }
+        
+        #saveButton {
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        
+        #saveButton:hover {
+            background-color: #45a049;
+        }
+        
+        #status {
+            margin-top: 10px;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <h1>PanstwaMiasta Helper</h1>
+    <p>Wtyczka jest aktywna na stronie panstwamiasta.net</p>
+    
+    <h2>Wybierz metodę wstawiania odpowiedzi:</h2>
+    <input type="radio" id="placeholder" name="inputMethod" value="placeholder">
+    <label for="placeholder">Placeholder</label><br>
+    <input type="radio" id="value" name="inputMethod" value="value">
+    <label for="value">Value</label><br>
+    
+    <button id="saveButton">Zapisz ustawienia</button>
+    <div id="status"></div>
+    
+    <script src="popup.js"></script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+{
+    "manifest_version": 3,
+    "name": "PanstwaMiasta Helper",
+    "version": "1.0",
+    "description": "Automatyczne uzupełnianie odpowiedzi w grze PanstwaMiasta",
+    "permissions": [
+        "storage",
+        "activeTab",
+        "scripting"
+    ],
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "icon.png",
+            "48": "icon.png",
+            "128": "icon.png"
+        }
+    },
+    "icons": {
+        "16": "icon.png",
+        "48": "icon.png",
+        "128": "icon.png"
+    },
+    "content_scripts": [
+        {
+            "matches": ["https://panstwamiasta.net/*"],
+            "js": ["content.js"]
+        }
+    ],
+    "web_accessible_resources": [
+        {
+            "resources": ["answers.json"],
+            "matches": ["https://panstwamiasta.net/*"]
+        }
+    ]
+}
