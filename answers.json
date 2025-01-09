@@ -84,12 +84,12 @@
     "Zwierzę": {
         "A": ["Antylopa", "Aligator", "Alpaka", "Ara"],
         "B": ["Bóbr", "Bażant", "Bizon", "Borsuk"],
-        "C": ["Czapla", "Chimpanz", "Czarna Mamba", "Chomik"],
+        "C": ["Czapla", "Czarna Mamba", "Chomik"],
         "D": ["Delfin", "Dzik", "Drop", "Diabeł Tasmański"],
-        "E": ["Emu", "Egret", "Elephant", "Echidna"],
-        "F": ["Flaming", "Foka", "Foxterrier", "Fera"],
+        "E": ["Emu", "Egret"],
+        "F": ["Flaming", "Foka", "Fera"],
         "G": ["Gepard", "Goryl", "Gazela", "Gołąb"],
-        "H": ["Hipopotam", "Hiena", "Humbak", "Hamster"],
+        "H": ["Hipopotam", "Hiena", "Humbak"],
         "I": ["Iguana", "Impala", "Indyk"],
         "J": ["Jaguar", "Jeleń", "Jaszczurka", "Jeż"],
         "K": ["Kot", "Kangur", "Koala", "Krokodyl"],
@@ -1044,6 +1044,33 @@
         "X": ["Xenofobiczny", "Xeroenergetyczny"],
         "Y": ["Yachtowy", "Yankee"],
         "Z": ["Złośliwość", "Zmobilizowanie"]
+    },
+
+    "Piwo": {
+        "A": ["Artus"],
+        "B": ["Brackie", "Brok"],
+        "C": ["Czarny smok"],
+        "D": ["Dębowe mocne", "Desperados"],
+        "F": ["Fortuna"],
+        "G": ["Grodzkie"],
+        "H": ["Harnaś"],
+        "I": ["Ipa"],
+        "J": ["Jagiełło"],
+        "K": ["Karmi", "Kasztelan", "Książ"],
+        "L": ["Lane", "Lech"],
+        "Ł": ["Łomża"],
+        "M": ["Mocny full"],
+        "N": ["Noteckie"],
+        "O": ["Okocim"],
+        "P": ["Perła", "Porter"],
+        "R": ["Redd's"],
+        "S": ["Strong, Specjal"],
+        "T": ["Tatra", "Tyskie"],
+        "U": ["Ulubione"],
+        "V": ["V"],
+        "W": ["Warka", "Wojak"],
+        "Z": ["Złe"],
+        "Ż": ["Żywiec", "Żubr"]
     }
 
 }

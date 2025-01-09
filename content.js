@@ -14,9 +14,9 @@ function loadAnswers() {
 }
 
 function getCurrentGameState() {
-    const letterElement = document.querySelector('.RoundSettings-module__wrapper .col-xs-9:nth-child(2) big');
+    const letterElement = document.querySelector("#root-game > div.RoundSettings-module__round-settings-container > div:nth-child(2) > big")
     const categoryElements = document.querySelectorAll('.form-group label');
-    
+
     if (letterElement && categoryElements.length > 0) {
         const letter = letterElement.textContent.trim().toUpperCase();
         const categories = Array.from(categoryElements).map(el => el.textContent.trim());
